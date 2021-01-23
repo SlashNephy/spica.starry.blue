@@ -68,7 +68,7 @@ params:
   description: My Portfolio
   defaultTheme: light
   logo:
-    logoMark: \>
+    logoMark: >
     logoText: spica starry blue
     logoHomeLink: /
   portrait:
