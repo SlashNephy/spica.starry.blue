@@ -21,10 +21,10 @@ i {
 GitHub アカウントは [こちら](https://github.com/SlashNephy)です。
 
 - Kotlin  
-    2017年の秋ぐらいから触り始めました。  
-    なんでもKotlinで書くぐらい Kotlin にはまってます。ことりんことりん。
+    2017 年の秋ぐらいから触り始めました。  
+    なんでも Kotlin で書くぐらい Kotlin にはまってます。ことりんことりん。
 
-    最近は Kotlin/Multiplatform に興味があり、自作ライブラリの脱 JVM を進めています。
+    最近は Kotlin/Multiplatform に興味があり, 自作ライブラリの脱 JVM を進めています。
 
 - C#
 
@@ -37,32 +37,32 @@ GitHub アカウントは [こちら](https://github.com/SlashNephy)です。
 
 ゲームが好きです。特にゲームは <i class="fab fa-steam"></i>Steamでやることが多いです。Steam アカウントは [こちら](https://steamcommunity.com/id/slashnephy/)です。
 
-- FF14 [<i class="fas fa-external-link-alt"></i>](https://jp.finalfantasyxiv.com/)  
-    2019年3月にはじめました。
+- FF14 <a href="https://jp.finalfantasyxiv.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+    2019年3月にはじめました。最近は休止気味。
     
     モブハンとか地図とか零式とかヌシ釣りとかギャザクラとか、いろいろやります。
-- アトリエシリーズ [<i class="fas fa-external-link-alt"></i>](https://www.gamecity.ne.jp/atelier20th/)  
+- アトリエシリーズ <a href="https://www.gamecity.ne.jp/atelier20th/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
     にわかなので、アーランドより前の世界はわかりません。
     
     アーランド ～ 不思議シリーズはプレイ済みです。
-- NieR シリーズ [<i class="fas fa-external-link-alt"></i>](https://www.jp.square-enix.com/nier10th/)  
-    NieR:Automata [<i class="fas fa-external-link-alt"></i>](https://store.steampowered.com/app/524220/NieRAutomata/) から入りました。全エンドを見ました。
+- NieR シリーズ <a href="https://www.jp.square-enix.com/nier10th/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+    NieR:Automata <a href="https://store.steampowered.com/app/524220/NieRAutomata/" target="_blank"><i class="fas fa-external-link-alt"></i></a> から入りました。全エンドを見ました。
     
     Replicant のリメイクたのしみです。
-- Skyrim [<i class="fas fa-external-link-alt"></i>](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)  
+- Skyrim <a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
     オープンワールド RPG です。
     
     数千時間プレイしました。世界観が大好きだし、Mod 文化が盛んなので無限にやってられます。  
     最近 [Enderal](https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/) っていう大型 Mod をプレイしました。おすすめです。
-- VRChat [<i class="fas fa-external-link-alt"></i>](https://store.steampowered.com/app/438100/VRChat/)  
+- VRChat <a href="https://store.steampowered.com/app/438100/VRChat/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
     VRChat アカウントは [こちら](https://vrchat.com/home/user/usr_493eef31-8199-4750-ae09-843786f7c1c2) です。
 
     あまりオンラインになることはないですが、Vive Tracker も揃えているので一応フルトラです。
-- 100% Orange Juice [<i class="fas fa-external-link-alt"></i>](https://store.steampowered.com/app/282800/100_Orange_Juice/)  
+- 100% Orange Juice <a href="https://store.steampowered.com/app/282800/100_Orange_Juice/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
     <i class="fas fa-dice-three"></i> すごろくゲームです。
     
     ソラちゃんばっかり使ってます。
-- Dominion [<i class="fas fa-external-link-alt"></i>](https://dominion.games/)  
+- Dominion <a href="https://dominion.games/" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
     カードゲームです。
 
 <i class="fas fa-heart"></i> Likes
@@ -87,26 +87,26 @@ GitHub アカウントは [こちら](https://github.com/SlashNephy)です。
 
 |パーツ           |構成        |備考        |
 |-----------------|------------|------------|
-| CPU | __AMD__ Ryzen 7 2700X [<i class="fas fa-external-link-alt"></i>](https://www.amd.com/ja/products/cpu/amd-ryzen-7-2700x) | 3.7 GHz, 8 Core, 16 Threads |
-|グリス| **アイネックス** Thermal Grizzly Kryonaut GS-08 [<i class="fas fa-external-link-alt"></i>](http://www.ainex.jp/products/gs-08/) |
-|RAM|**crucial** [<i class="fas fa-external-link-alt"></i>](http://www.crucial.jp/jpn/ja/memory-desktop) | DDR4 2133 MHz, 40GB(16GBx2 + 8GBx1) |
-|GPU| **ASUS** ROG STRIX-GTX1080-A8G-GAMING [<i class="fas fa-external-link-alt"></i>](https://www.asus.com/jp/Graphics-Cards/ROG-STRIX-GTX1080-A8G-GAMING/) | VRAM 8GB |
-|サウンド| **Creative** Sound BlasterX G5 [<i class="fas fa-external-link-alt"></i>](https://jp.creative.com/p/sound-blaster/sound-blasterx-g5) |
-|MB| **AsRock** Fatal1ty X470 GAMING K4 [<i class="fas fa-external-link-alt"></i>](http://www.asrock.com/MB/AMD/Fatal1ty%20X470%20Gaming%20K4/index.asp) |
-|SSD| **Samsung** 970 EVO MZ-V7E250B/IT [<i class="fas fa-external-link-alt"></i>](http://www.itgm.co.jp/product/ssd970evo/) <br> **crucial** MX300 CT275MX300SSD1 [<i class="fas fa-external-link-alt"></i>](http://www.crucial.jp/jpn/ja/storage-ssd-mx300) <br> **Samsung** 750 EVO MZ-750250B/IT <br> **Colorful** SL500 [<i class="fas fa-external-link-alt"></i>](http://www.links.co.jp/item/sl500-320g/) | M.2. 250GB <br> SATA 275GB <br> SATA 250GB <br> SATA 320GB |
-|SSD 冷却| **Aquacomputer** kryoM.2 evo [<i class="fas fa-external-link-alt"></i>](https://shop.aquacomputer.de/product_info.php?language=en&products_id=3659) | M.2. SSD 用 |
+| CPU | __AMD__ Ryzen 7 2700X <a href="https://www.amd.com/ja/products/cpu/amd-ryzen-7-2700x" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 3.7 GHz, 8 Core, 16 Threads |
+|グリス| **アイネックス** Thermal Grizzly Kryonaut GS-08 <a href="http://www.ainex.jp/products/gs-08/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|RAM|**crucial** <a href="http://www.crucial.jp/jpn/ja/memory-desktop" target="_blank"><i class="fas fa-external-link-alt"></i></a> | DDR4 2133 MHz, 40GB(16GBx2 + 8GBx1) |
+|GPU| **ASUS** ROG STRIX-GTX1080-A8G-GAMING <a href="https://www.asus.com/jp/Graphics-Cards/ROG-STRIX-GTX1080-A8G-GAMING/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | VRAM 8GB |
+|サウンド| **Creative** Sound BlasterX G5 <a href="https://jp.creative.com/p/sound-blaster/sound-blasterx-g5" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|MB| **AsRock** Fatal1ty X470 GAMING K4 <a href="http://www.asrock.com/MB/AMD/Fatal1ty%20X470%20Gaming%20K4/index.asp" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|SSD| **Samsung** 970 EVO MZ-V7E250B/IT <a href="http://www.itgm.co.jp/product/ssd970evo/" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **crucial** MX300 CT275MX300SSD1 <a href="http://www.crucial.jp/jpn/ja/storage-ssd-mx300" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **Samsung** 750 EVO MZ-750250B/IT <br> **Colorful** SL500 <a href="http://www.links.co.jp/item/sl500-320g/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | M.2. 250GB <br> SATA 275GB <br> SATA 250GB <br> SATA 320GB |
+|SSD 冷却| **Aquacomputer** kryoM.2 evo <a href="https://shop.aquacomputer.de/product_info.php?language=en&products_id=3659" target="_blank"><i class="fas fa-external-link-alt"></i></a> | M.2. SSD 用 |
 |HDD| **WESTERN DIGITAL** WD30EZRZ-RT | SATA 3TB, 5400 rpm |
-|電源| **Corsair** CX650M CP-9020103-JP [<i class="fas fa-external-link-alt"></i>](http://www.links.co.jp/item/cx650m/) | 650W |
-|モニター| **msi** OPTIX MAG341CQ [<i class="fas fa-external-link-alt"></i>](https://jp.msi.com/Monitor/Optix-MAG341CQ) <br> **QNIX** QXMO2414 [<i class="fas fa-external-link-alt"></i>](http://qnix.biz/?portfolio=1982) <br> **ASUS** VX238H-P [<i class="fas fa-external-link-alt"></i>](https://www.asus.com/jp/Monitors/VX238HP/) <br> **ASUS** VX239H-P [<i class="fas fa-external-link-alt"></i>](https://www.asus.com/jp/Monitors/VX239H/) <br> **IODATA** EX-LD2071TB [<i class="fas fa-external-link-alt"></i>](http://www.iodata.jp/product/lcd/wide/ex-ld2071tb/) | UWQHD, 100 Hz, 34 inch <br> FHD, 144 Hz <br> FHD, 60 Hz <br> FHD, 60 Hz <br> FHD, 60 Hz |
-|VR 関連| **HTC** Vive [<i class="fas fa-external-link-alt"></i>](https://www.vive.com/jp/) <br> **HTC** Vive Deluxe Audio Strap [<i class="fas fa-external-link-alt"></i>](https://www.vive.com/jp/vive-deluxe-audio-strap/) <br> **HTC** Vive Tracker (2018) x 3 [<i class="fas fa-external-link-alt"></i>](http://vive.degica.com/cart/populate?variants[45950]=1) |
-|ヘッドフォン| **Sony** WH-1000XM2 [<i class="fas fa-external-link-alt"></i>](https://www.sony.jp/headphone/products/WH-1000XM2/) |
-|キーボード| **FILCO** Majestouch 2 FKBN108MC/JB2 [<i class="fas fa-external-link-alt"></i>](https://www.diatec.co.jp/products/det.php?prod_c=756) |
-|マウス| **Logicool** G600 [<i class="fas fa-external-link-alt"></i>](https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g600-mmo-gaming-mouse.html) <br> **Logicool** G300s [<i class="fas fa-external-link-alt"></i>](http://gaming.logicool.co.jp/ja-jp/product/g300s-gaming-mouse) |
-|ゲームパッド| **Microsoft** Xbox360 Controller [<i class="fas fa-external-link-alt"></i>](https://www.microsoft.com/accessories/ja-jp/products/gaming/xbox-360-controller-for-windows/52a-00006) <br> **Valve** Steam Controller [<i class="fas fa-external-link-alt"></i>](http://store.steampowered.com/app/353370?l=japanese) |
-|ペンタブ| **wacom** Intuos Draw [<i class="fas fa-external-link-alt"></i>](http://www.wacom.com/ja-jp/products/intuos-draw) |
-|マイク| **Sony** ECM-PCV80U [<i class="fas fa-external-link-alt"></i>](https://www.sony.jp/microphone/products/ECM-PCV80U/) |
-|カメラ| **Logicool** HD Webcam C270 [<i class="fas fa-external-link-alt"></i>](https://www.logicool.co.jp/ja-jp/product/hd-webcam-c270) |
-|ケース| **Thermaltake** VIEW 37 CA-1J7-00M1WN-00 [<i class="fas fa-external-link-alt"></i>](https://www.ask-corp.jp/products/thermaltake/middle-pccase/view-37.html) |
+|電源| **Corsair** CX650M CP-9020103-JP <a href="http://www.links.co.jp/item/cx650m/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 650W |
+|モニター| **msi** OPTIX MAG341CQ <a href="https://jp.msi.com/Monitor/Optix-MAG341CQ" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **QNIX** QXMO2414 <a href="http://qnix.biz/?portfolio=1982" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **ASUS** VX238H-P <a href="https://www.asus.com/jp/Monitors/VX238HP/" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **ASUS** VX239H-P <a href="https://www.asus.com/jp/Monitors/VX239H/" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **IODATA** EX-LD2071TB <a href="http://www.iodata.jp/product/lcd/wide/ex-ld2071tb/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | UWQHD, 100 Hz, 34 inch <br> FHD, 144 Hz <br> FHD, 60 Hz <br> FHD, 60 Hz <br> FHD, 60 Hz |
+|VR 関連| **HTC** Vive <a href="https://www.vive.com/jp/" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **HTC** Vive Deluxe Audio Strap <a href="https://www.vive.com/jp/vive-deluxe-audio-strap/" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **HTC** Vive Tracker (2018) x 3 <a href="http://vive.degica.com/cart/populate?variants[45950]=1" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|ヘッドフォン| **Sony** WH-1000XM2 <a href="https://www.sony.jp/headphone/products/WH-1000XM2/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|キーボード| **FILCO** Majestouch 2 FKBN108MC/JB2 <a href="https://www.diatec.co.jp/products/det.php?prod_c=756" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|マウス| **Logicool** G600 <a href="https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g600-mmo-gaming-mouse.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **Logicool** G300s <a href="http://gaming.logicool.co.jp/ja-jp/product/g300s-gaming-mouse" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|ゲームパッド| **Microsoft** Xbox360 Controller <a href="https://www.microsoft.com/accessories/ja-jp/products/gaming/xbox-360-controller-for-windows/52a-00006" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **Valve** Steam Controller <a href="http://store.steampowered.com/app/353370?l=japanese" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|ペンタブ| **wacom** Intuos Draw <a href="http://www.wacom.com/ja-jp/products/intuos-draw" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|マイク| **Sony** ECM-PCV80U <a href="https://www.sony.jp/microphone/products/ECM-PCV80U/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|カメラ| **Logicool** HD Webcam C270 <a href="https://www.logicool.co.jp/ja-jp/product/hd-webcam-c270" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|ケース| **Thermaltake** VIEW 37 CA-1J7-00M1WN-00 <a href="https://www.ask-corp.jp/products/thermaltake/middle-pccase/view-37.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 
 
 ### <i class="fas fa-server"></i> Arch Linux (サーバ機)  
@@ -114,14 +114,14 @@ GitHub アカウントは [こちら](https://github.com/SlashNephy)です。
 
 |パーツ           |構成        |備考        |
 |-----------------|------------|------------|
-|CPU| **Intel** Core i7 6700 [<i class="fas fa-external-link-alt"></i>](http://www.intel.co.jp/content/www/jp/ja/products/processors/core/core-vpro/i7-6700.html) | 3.4GHz |
-|RAM| **crucial** [<i class="fas fa-external-link-alt"></i>](http://www.crucial.jp/jpn/ja/memory-desktop) | DDR4 2133 MHz, 24GB (8GBx3) |
-|MB| **ASUS** H170 PRO [<i class="fas fa-external-link-alt"></i>](https://www.asus.com/jp/Motherboards/H170-PRO/) |
+|CPU| **Intel** Core i7 6700 <a href="http://www.intel.co.jp/content/www/jp/ja/products/processors/core/core-vpro/i7-6700.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 3.4GHz |
+|RAM| **crucial** <a href="http://www.crucial.jp/jpn/ja/memory-desktop" target="_blank"><i class="fas fa-external-link-alt"></i></a> | DDR4 2133 MHz, 24GB (8GBx3) |
+|MB| **ASUS** H170 PRO <a href="https://www.asus.com/jp/Motherboards/H170-PRO/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |SSD| **crucial** BX200 CT240BX200SSD1 | 240GB |
 |HDD| **WESTERN DIGITAL** WD30EFRX <br> **WESTERN DIGITAL** WD30EZRZ-RT <br> **東芝** DT01ACA300 | SATA 3TB <br> SATA 3TB, 5400 rpm <br> SATA 3TB, 7200 rpm |
-|PCIe| **Plex** PX-W3PE4 [<i class="fas fa-external-link-alt"></i>](http://www.plex-net.co.jp/product/px-w3pe4/) | 8 チューナー |
-|電源| **Corsair** CX450M CP-9020101-JP [<i class="fas fa-external-link-alt"></i>](http://www.links.co.jp/item/cx450m/) | 450W |
-|ケース| **Thermaltake** Versa H23 [<i class="fas fa-external-link-alt"></i>](http://www.thermaltake.com/products-model.aspx?id=C_00002304)|
+|PCIe| **Plex** PX-W3PE4 <a href="http://www.plex-net.co.jp/product/px-w3pe4/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 8 チューナー |
+|電源| **Corsair** CX450M CP-9020101-JP <a href="http://www.links.co.jp/item/cx450m/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 450W |
+|ケース| **Thermaltake** Versa H23 <a href="http://www.thermaltake.com/products-model.aspx?id=C_00002304" target="_blank"><i class="fas fa-external-link-alt"></i></a>|
 
 ### <i class="fas fa-laptop"></i> Macbook Pro 13inch (Early 2015)  
     macOS Catalina。Core i7 3.4GHz, RAM 16GB, SSD 256GB のカスタマイズをしました。

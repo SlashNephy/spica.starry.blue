@@ -4,7 +4,7 @@ date: 2020-01-01T00:00:00+09:00
 draft: false
 ---
 
-ここでは、私のおもな製作物について紹介します。
+ここでは, 私のおもな製作物について紹介します。
 
 Kotlin Library
 ---------
@@ -12,7 +12,7 @@ Kotlin Library
 > Kotlin is available at [kotlinlang.org](https://kotlinlang.org).
 
 - [Penicillin](https://github.com/StarryBlueSky/Penicillin)  
-[Kotlin 1.3+] Twitter API wrapper written in Kotlin. Supports Kotlin/Multiplatform.
+[Kotlin 1.4+] Twitter API wrapper written in Kotlin/Multiplatform. Works on JVM, JS (Browser, NodeJS).
 
 ```kotlin
 suspend fun main() {
@@ -22,8 +22,8 @@ suspend fun main() {
             token("AccessToken", "AccessToken Secret")
         }
     }.use { client ->
-        client.timeline.userTimeline(
-            screenName = "realdonaldtrump",
+        client.timeline.userTimelineByScreenName(
+            screenName = "twitter",
             count = 100
         ).execute().forEach { status ->
             println(status.text)
@@ -33,7 +33,7 @@ suspend fun main() {
 ```
 
 - [Json.kt](https://github.com/StarryBlueSky/Json.kt)  
-[Kotlin 1.3+] Json bindings for Kotlin/Multiplatform. Used in Penicillin.
+[Kotlin 1.4+] Json bindings for Kotlin/Multiplatform. This project is used in Penicillin.
 
 ```kotlin
 data class Model(override val json: JsonObject): JsonModel {
@@ -82,13 +82,8 @@ fun main() {
 }
 ```
 
-- [GLaDOS-bot](https://github.com/StarryBlueSky/GLaDOS-bot)  
-[Kotlin 1.3+] Bot framework with the plugin system. Supports Discord bot,Twitter bot and Web hosting.
-Currently working in progress.
-
 - [VRChaKt](https://github.com/StarryBlueSky/VRChaKt)  
-[Kotlin 1.3+] VRChat Web API wrapper written in Kotlin.
-Currently working in progress.
+[Kotlin 1.4+] VRChat Web API wrapper written in Kotlin. Currently working in progress.
 
 Kotlin Application
 ---------
