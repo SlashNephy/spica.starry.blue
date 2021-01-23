@@ -43,7 +43,6 @@ outputs:
     - AMP
 permalinks:
   posts: /posts/:year/:month/:filename/
-publishDir: docs
 related:
   includeNewer: true
   toLower: true
