@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  hugo:
+    container_name: Hugo
+    image: klakegg/hugo:ext-alpine
+    restart: always
+    command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue/ --appendPort=false --noHTTPCache
+    ports:
+      - 127.0.0.1:51900:1313/tcp
+    volumes:
+      - .:/src

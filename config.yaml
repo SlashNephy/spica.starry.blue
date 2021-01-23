@@ -1,0 +1,87 @@
+baseURL: https://spica.starry.blue/
+enableEmoji: true
+enableGitInfo: true
+footnoteReturnLinkContents: ↩
+googleAnalytics: UA-169204355-1
+hasCJKLanguage: true
+imaging:
+  exif:
+    disableLatLong: true
+copyright: >-
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
+defaultContentLanguage: ja
+languageCode: ja-jp
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+    style: native
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: about
+    - identifier: showcase
+      name: Showcase
+      url: showcase
+    - identifier: blog
+      name: Blog
+      url: https://blog.starry.blue/
+    - identifier: posts
+      name: Archives
+      url: posts
+minify:
+  minifyOutput: true
+outputs:
+  home:
+    - HTML
+    - RSS
+  page:
+    - HTML
+    - AMP
+permalinks:
+  posts: /posts/:year/:month/:filename/
+publishDir: docs
+related:
+  includeNewer: true
+  toLower: true
+sitemap:
+  changefreq: weekly
+  priority: 0.8
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+theme: hello-friend-ng
+title: spica.starry.blue
+
+params:
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 2006-01-02
+  dateformNumTime: 2006-01-02 15:04
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  homeSubtitle: My Portfolio
+  description: My Portfolio
+  defaultTheme: light
+  logo:
+    logoMark: \>
+    logoText: spica starry blue
+    logoHomeLink: /
+  portrait:
+    path: https://github.com/SlashNephy.png
+    alt: Portrait
+  social:
+    - name: email
+      url: mailto:spica@starry.blue
+    - name: github
+      url: https://github.com/SlashNephy
+    - name: twitter
+      url: https://twitter.com/SlashNephy
+
+readOtherPosts: Read other posts
+author:
+  name: Nep
