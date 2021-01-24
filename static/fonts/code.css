@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Cascadia Code";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Cascadia Mono"),
+         url("/fonts/CascadiaMono-Regular.woff2") format("woff2"),
+         url("/fonts/CascadiaMono-Regular.otf") format("opentype"),
+         url("/fonts/CascadiaMono-Regular.ttf") format("truetype");
+}
+
+code {
+    font-family: "Cascadia Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+}
