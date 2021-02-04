@@ -70,6 +70,7 @@ params:
     logoMark: >
     logoText: spica starry blue
     logoHomeLink: /
+  gitUrl: https://github.com/SlashNephy/spica.starry.blue/commit/
   portrait:
     path: https://github.com/SlashNephy.png
     alt: Portrait
