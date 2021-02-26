@@ -81,6 +81,12 @@ params:
       url: https://github.com/SlashNephy
     - name: twitter
       url: https://twitter.com/SlashNephy
+    - name: discord
+      url: https://discord.gg/KA3US7r6zX
+    - name: steam
+      url: https://steamcommunity.com/id/slashnephy
+    - name: reddit
+      url: https://www.reddit.com/u/SlashNephy
 
 readOtherPosts: Read other posts
 author:
