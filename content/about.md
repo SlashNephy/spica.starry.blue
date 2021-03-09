@@ -26,9 +26,13 @@ GitHub アカウントは [こちら](https://github.com/SlashNephy)です。
 
     最近は Kotlin/Multiplatform に興味があり, 自作ライブラリの脱 JVM を進めています。
 
-- C#
+- C#  
+    .NET 6 LTS が出たら触ってみたいです。
 
 - Python
+
+- Rust, TypeScript  
+    あとでやりたい
 
 <hr>
 
