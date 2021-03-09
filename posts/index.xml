@@ -48,7 +48,9 @@
 <p>すっきりしました。(それにしてもドライブが多すぎる&hellip;)</p>
 <p>どうやら、これらのキーは大型 Update で初期化されるようです。May 2020 Update (version 2004) を適用したところ、表示状態に戻ってしまいました。</p>
 ]]></content></item><item><title>MathJax を Hugo で読み込む</title><link>https://spica.starry.blue/posts/2020/04/mathjax-on-hugo/</link><pubDate>Wed, 01 Apr 2020 14:33:19 +0900</pubDate><guid>https://spica.starry.blue/posts/2020/04/mathjax-on-hugo/</guid><description>Hugo on GitHub Pages にお引越ししてみました。 そのついでに MathJax を導入してみました。MathJax 3 になり、導入方法が変わっていたので公式の ドキュメント を参考</description><content type="html"><![CDATA[<p>Hugo on GitHub Pages にお引越ししてみました。<br>
-そのついでに MathJax を導入してみました。MathJax 3 になり、導入方法が変わっていたので公式の <a href="https://www.mathjax.org/#gettingstarted" target="_blank">ドキュメント</a> を参考にしました。</p>
+そのついでに MathJax を導入してみました。MathJax 3 になり、導入方法が変わっていたので公式の 
+<a href="https://www.mathjax.org/#gettingstarted" target="_blank">ドキュメント</a>
+ を参考にしました。</p>
 <p>このサイトは Hugo で生成されているので <code>layouts/patials/footer.html</code> に</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -78,7 +80,9 @@
 &lt;<span style="color:#6ab825;font-weight:bold">script</span> <span style="color:#bbb">id</span>=<span style="color:#ed9d13">&#34;MathJax-script&#34;</span> <span style="color:#bbb">async</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js&#34;</span>&gt;&lt;/<span style="color:#6ab825;font-weight:bold">script</span>&gt;
 </code></pre></td></tr></table>
 </div>
-</div><p>を追記すれば OK。このままでは全ページで MathJax がロードされてしまうので、<a href="https://kenbannikki.com/notes/using-mathjax-with-hugo/" target="_blank">先人の記事</a> にある通り</p>
+</div><p>を追記すれば OK。このままでは全ページで MathJax がロードされてしまうので、
+<a href="https://kenbannikki.com/notes/using-mathjax-with-hugo/" target="_blank">先人の記事</a>
+ にある通り</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
@@ -217,7 +221,9 @@
 <p>アクセスログを取りたいところで</p>
 <pre><code>access_log /path/to/access.log if=$loggable;
 </code></pre><p>のように <code>if</code> 引数を付けてあげれば OK。</p>
-<p>ドキュメント: <a href="https://nginx.org/en/docs/http/ngx_http_log_module.html" target="_blank">Module ngx_http_log_module</a></p>
+<p>ドキュメント: 
+<a href="https://nginx.org/en/docs/http/ngx_http_log_module.html" target="_blank">Module ngx_http_log_module</a>
+</p>
 ]]></content></item><item><title>Windows 10 で Visual Studio インストーラーが「セットアップ中に問題が発生しました」で終了する問題</title><link>https://spica.starry.blue/posts/2016/10/windows10-fix-visual-studio-installer-error/</link><pubDate>Wed, 26 Oct 2016 15:24:09 +0900</pubDate><guid>https://spica.starry.blue/posts/2016/10/windows10-fix-visual-studio-installer-error/</guid><description>イベント ビューアーで詳細なログを参照したところ &amp;lsquo;System.Windows.Media.FontFamily&amp;rsquo; のタイプ初期化子が例外をスローしました とありました。 最近インストールしたフォントに問題がある</description><content type="html"><![CDATA[<p>イベント ビューアーで詳細なログを参照したところ</p>
 <blockquote>
 <p>&lsquo;System.Windows.Media.FontFamily&rsquo; のタイプ初期化子が例外をスローしました</p>
