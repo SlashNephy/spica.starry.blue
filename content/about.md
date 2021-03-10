@@ -131,7 +131,10 @@ GitHub アカウントは [こちら](https://github.com/SlashNephy)です。
     macOS Catalina。Core i7 3.4GHz, RAM 16GB, SSD 256GB のカスタマイズをしました。
 
 ### <i class="fas fa-mobile"></i> iPhone 8
-    iOS 13.2.3 Jailbroken。色は Space Gray, 容量は 256 GB です。
+    iOS 14.3 Jailbroken。色は Space Gray, 容量は 256 GB です。
+
+### <i class="fas fa-tablet"></i> iPad Pro
+    iOS 13.3 Jailbroken。色は Gold, 容量は 256 GB です。
 
 ### <i class="fas fa-tablet"></i> iPad mini 4
     iOS 13.3 Jailbroken。色は Gold, 容量は 16 GB です。

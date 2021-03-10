@@ -5,7 +5,7 @@ services:
     container_name: Hugo
     image: klakegg/hugo:ext-alpine
     restart: always
-    command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --navigateToChanged --templateMetrics --templateMetricsHints
+    command: server --config config.yaml,dev.yaml --port 1313 --minify --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged --log --templateMetrics --templateMetricsHints
     ports:
       - 127.0.0.1:51900:1313/tcp
       - 127.0.0.1:51910:443/tcp
