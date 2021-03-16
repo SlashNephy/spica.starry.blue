@@ -10,3 +10,6 @@ services:
       - 127.0.0.1:51900:1313/tcp
     volumes:
       - .:/src
+    labels:
+      traefik.enable: 'true'
+      traefik.http.routers.hugo.rule: Host(`spica-dev.starry.blue`)
