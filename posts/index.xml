@@ -1,4 +1,44 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on spica.starry.blue</title><link>https://spica.starry.blue/posts/</link><description>Recent content in Posts on spica.starry.blue</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>&lt;a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT&lt;/a></copyright><lastBuildDate>Fri, 12 Jun 2020 20:46:33 +0900</lastBuildDate><atom:link href="https://spica.starry.blue/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 の "PC" のライブラリを隠す</title><link>https://spica.starry.blue/posts/2020/06/windows10-remove-special-folders-from-pc/</link><pubDate>Fri, 12 Jun 2020 20:46:33 +0900</pubDate><guid>https://spica.starry.blue/posts/2020/06/windows10-remove-special-folders-from-pc/</guid><description>Windows 10 から &amp;ldquo;PC&amp;rdquo; にライブラリが表示されるようになりました。 ここで表示されるライブラリが邪魔だという方も少なくないと思います。 これらのフォルダはレジ</description><content type="html"><![CDATA[<p>Windows 10 から &ldquo;PC&rdquo; にライブラリが表示されるようになりました。</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on spica.starry.blue</title><link>https://spica.starry.blue/posts/</link><description>Recent content in Posts on spica.starry.blue</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>&lt;a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT&lt;/a></copyright><lastBuildDate>Sun, 30 May 2021 18:34:28 +0900</lastBuildDate><atom:link href="https://spica.starry.blue/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>TVTest の Discord Rich Presence プラグインを fork した</title><link>https://spica.starry.blue/posts/2021/05/tvtest-discord-rich-presence-plugin-fork/</link><pubDate>Sun, 30 May 2021 18:34:28 +0900</pubDate><guid>https://spica.starry.blue/posts/2021/05/tvtest-discord-rich-presence-plugin-fork/</guid><description>Fork した TvTestRPC は こちら です。 TvTestRPC というプラグインが既にもう開発されていたのですが, 番組が切り替わったタイミングで Presence が更新されなくなるバグに気付きまし</description><content type="html"><![CDATA[<p>Fork した TvTestRPC は 
+<a href="https://github.com/SlashNephy/TvTestRPC" target="_blank">こちら</a>
+ です。</p>
+<hr>
+<p>
+<a href="https://github.com/noriokun4649/TvTestRPC" target="_blank">TvTestRPC</a>
+ というプラグインが既にもう開発されていたのですが, 番組が切り替わったタイミングで Presence が更新されなくなるバグに気付きました。<br>
+原因としては TVTest が番組切り替わりのイベントを提供しておらず, 更新が走らないことが要因でした。タイマー処理を回すことで対処しました。</p>
+<p>それと放送局ロゴを追加したかったので, Fork して独立することにしました。というのも Discord Rich Presence はアプリケーション ID ごとに予め使用するロゴ画像をアップロードする必要があるからです。<br>
+この fork では新しいアプリケーション ID に切り替えています。</p>
+<p><img src="/img/tvtestrpc-assets.png" alt="Discord Developer Portal"></p>
+<p>将来的にはもっといろいろな局に対応したいのですが, 地方局を調べるのは大変なので 
+<a href="https://github.com/SlashNephy/TvTestRPC/issues/new/choose" target="_blank">Issue</a>
+ からロゴ追加リクエストを随時受け付けています。お気軽にどうぞ (というか報告おねがいします！)</p>
+<p>全国共通の NHK 総合と教育, BS はすべてロゴを追加済です。関東広域や一部の地方局の地上波も既に対応済です。</p>
+<hr>
+<p>まとめると, 機能は本家さんバージョンのものを引き継いでいますが, 以下の相違点があります。</p>
+<ul>
+<li>TvtPlay プラグインと連携し, ファイル再生時にも経過時間を表示できるようになっています。
+<ul>
+<li>シーク位置を加味して経過時間を計算しています。</li>
+</ul>
+</li>
+<li>東京近辺の地上波だけでなく, NHK や BS, 様々な地域の地上波のロゴ表示にも対応しています。</li>
+<li>視聴中の番組が終了したときに Presence が更新されないバグを修正しました。</li>
+<li>全角文字を半角に変換するオプションを追加しています。</li>
+<li>サブチャンネル (TOKYO MX2 等) でも Presence を表示できます。</li>
+</ul>
+<div align="center">
+  <img src="/img/tvtestrpc-large-image.png" title="Large image text">
+  <br>
+  <img src="/img/tvtestrpc-small-image.png" title="Small image text">
+</div>
+<p>Details = <code>サービス名</code><br>
+State = <code>番組名</code><br>
+Large Image Text = <code>番組説明</code> (空欄のときは表示されません)<br>
+Small Image Text = <code>TVTest と TvTestRPC プラグインのバージョン</code></p>
+<hr>
+<p>ところで C++ は普段あまり書かないので, 文字列操作にかなり詰まりました。<br>
+TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Discord RPC が受け付ける文字列は <code>const char*</code> なので相互変換とかフォーマットがしんどかったです。ワイド文字列, なにそれおいしいの？</p>
+]]></content></item><item><title>Windows 10 の "PC" のライブラリを隠す</title><link>https://spica.starry.blue/posts/2020/06/windows10-remove-special-folders-from-pc/</link><pubDate>Fri, 12 Jun 2020 20:46:33 +0900</pubDate><guid>https://spica.starry.blue/posts/2020/06/windows10-remove-special-folders-from-pc/</guid><description>Windows 10 から &amp;ldquo;PC&amp;rdquo; にライブラリが表示されるようになりました。 ここで表示されるライブラリが邪魔だという方も少なくないと思います。 これらのフォルダはレジ</description><content type="html"><![CDATA[<p>Windows 10 から &ldquo;PC&rdquo; にライブラリが表示されるようになりました。</p>
 <p><img src="/img/windows10-pc.png" alt="Windows 10 の PC"></p>
 <p>ここで表示されるライブラリが邪魔だという方も少なくないと思います。</p>
 <p>これらのフォルダはレジストリを編集することで隠すことが可能です。以下、レジストリを操作するため自己責任でおねがいします。</p>
