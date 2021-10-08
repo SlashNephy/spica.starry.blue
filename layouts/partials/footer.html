@@ -17,4 +17,31 @@
     </div>
 </footer>
 
-<link rel="stylesheet" href="/fonts/code.css">
+<!--Web Font Loader-->
+<script>
+    WebFontConfig = {
+        google: {
+            families: ['Noto+Sans+JP', 'M+PLUS+1p', 'Noto+Sans+Mono']
+        },
+        active: function() {
+            sessionStorage.fonts = true;
+        }
+    };
+ 
+    (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+    })(document);
+</script>
+
+<style>
+    body {
+        font-family: 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    }
+    
+    code {
+        font-family: 'Cascadia Code', 'Noto Sans Mono', monospace;
+    }    
+</style>

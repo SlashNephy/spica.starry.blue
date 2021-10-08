@@ -23,6 +23,9 @@ menu:
     - identifier: about
       name: About
       url: about
+    - identifier: Gadgets
+      name: Gadgets
+      url: gadgets
     - identifier: showcase
       name: Showcase
       url: showcase
@@ -81,8 +84,6 @@ params:
       url: https://github.com/SlashNephy
     - name: twitter
       url: https://twitter.com/SlashNephy
-    - name: discord
-      url: https://discord.gg/KA3US7r6zX
     - name: steam
       url: https://steamcommunity.com/id/slashnephy
     - name: reddit
