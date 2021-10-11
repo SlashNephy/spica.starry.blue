@@ -17,12 +17,11 @@ i {
     2016年10月から運用しています。
     2018年5月に Intel Core i7 6700K → Ryzen 7 2700X に交換しました。  
 
-
 |パーツ           |構成        |備考        |
 |-----------------|------------|------------|
-| CPU | __AMD__ Ryzen 7 2700X <a href="https://www.amd.com/ja/products/cpu/amd-ryzen-7-2700x" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 3.7 GHz, 8 Core, 16 Threads |
+| CPU | **AMD** Ryzen 7 2700X <a href="https://www.amd.com/ja/products/cpu/amd-ryzen-7-2700x" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 3.7 GHz, 8 Core, 16 Threads |
 |グリス| **アイネックス** Thermal Grizzly Kryonaut GS-08 <a href="http://www.ainex.jp/products/gs-08/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
-|RAM|**crucial** <a href="http://www.crucial.jp/jpn/ja/memory-desktop" target="_blank"><i class="fas fa-external-link-alt"></i></a> | DDR4 2133 MHz, 48 GB (16GBx2 + 8GBx2) |
+|RAM|**crucial** <a href="http://www.crucial.jp/jpn/ja/memory-desktop" target="_blank"><i class="fas fa-external-link-alt"></i></a> | DDR4 2133 MHz, 48 GB (16 GB x 2 + 8 GB x 2) |
 |GPU| **msi** GeForce RTX 3080 VENTUS 3X PLUS 10G OC LHR <a href="https://www.msi.com/Graphics-Card/GeForce-RTX-3080-VENTUS-3X-PLUS-10G-OC-LHR" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **ASUS** ROG STRIX-GTX1080-A8G-GAMING <a href="https://www.asus.com/jp/Graphics-Cards/ROG-STRIX-GTX1080-A8G-GAMING/" target="_blank"><i class="fas fa-external-link-alt"></i></a> | VRAM 10GB <br> VRAM 8GB |
 |サウンド| **Creative** Sound BlasterX G5 <a href="https://jp.creative.com/p/sound-blaster/sound-blasterx-g5" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |MB| **AsRock** Fatal1ty X470 GAMING K4 <a href="http://www.asrock.com/MB/AMD/Fatal1ty%20X470%20Gaming%20K4/index.asp" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
@@ -34,19 +33,17 @@ i {
 |ヘッドフォン| **Sony** WH-1000XM2 <a href="https://www.sony.jp/headphone/products/WH-1000XM2/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |キーボード| **FILCO** Majestouch 2 FKBN108MC/JB2 <a href="https://www.diatec.co.jp/products/det.php?prod_c=756" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |マウス| **Logicool** G600 <a href="https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g600-mmo-gaming-mouse.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
-|ゲームパッド| **Microsoft** Xbox360 Controller <a href="https://www.microsoft.com/accessories/ja-jp/products/gaming/xbox-360-controller-for-windows/52a-00006" target="_blank"><i class="fas fa-external-link-alt"></i></a> <br> **Valve** Steam Controller <a href="http://store.steampowered.com/app/353370?l=japanese" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
-|ペンタブ| **wacom** Intuos Draw <a href="http://www.wacom.com/ja-jp/products/intuos-draw" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
+|ゲームパッド| **Valve** Steam Controller <a href="http://store.steampowered.com/app/353370?l=japanese" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |マイク| **Sony** ECM-PCV80U <a href="https://www.sony.jp/microphone/products/ECM-PCV80U/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |カメラ| **Logicool** HD Webcam C270 <a href="https://www.logicool.co.jp/ja-jp/product/hd-webcam-c270" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |ケース| **Thermaltake** VIEW 37 CA-1J7-00M1WN-00 <a href="https://www.ask-corp.jp/products/thermaltake/middle-pccase/view-37.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
-
 
 ### <i class="fas fa-server"></i> Arch Linux (サーバ機)  
     2016年7月から自宅サーバ兼録画サーバとして運用しています。
 
 |パーツ           |構成        |備考        |
 |-----------------|------------|------------|
-|CPU| **Intel** Core i7 6700 <a href="http://www.intel.co.jp/content/www/jp/ja/products/processors/core/core-vpro/i7-6700.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 3.4GHz |
+|CPU| **Intel** Core i7 6700 <a href="http://www.intel.co.jp/content/www/jp/ja/products/processors/core/core-vpro/i7-6700.html" target="_blank"><i class="fas fa-external-link-alt"></i></a> | 3.4GHz, 4 Core, 8 Threads |
 |RAM| **crucial** <a href="http://www.crucial.jp/jpn/ja/memory-desktop" target="_blank"><i class="fas fa-external-link-alt"></i></a> | DDR4 2133 MHz, 32 GB (8GBx4) |
 |MB| **ASUS** H170 PRO <a href="https://www.asus.com/jp/Motherboards/H170-PRO/" target="_blank"><i class="fas fa-external-link-alt"></i></a> |
 |SSD| **crucial** BX200 CT240BX200SSD1 | 240GB |

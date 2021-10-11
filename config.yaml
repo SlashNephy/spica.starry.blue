@@ -33,7 +33,7 @@ menu:
       name: Blog
       url: https://blog.starry.blue/
     - identifier: posts
-      name: Archives
+      name: Posts
       url: posts
 minify:
   minifyOutput: true
