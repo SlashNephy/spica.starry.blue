@@ -1,16 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on spica.starry.blue</title><link>https://spica.starry.blue/posts/</link><description>Recent content in Posts on spica.starry.blue</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>&lt;a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT&lt;/a></copyright><lastBuildDate>Sun, 30 May 2021 18:34:28 +0900</lastBuildDate><atom:link href="https://spica.starry.blue/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>TVTest の Discord Rich Presence プラグインを fork した</title><link>https://spica.starry.blue/posts/2021/05/tvtest-discord-rich-presence-plugin-fork/</link><pubDate>Sun, 30 May 2021 18:34:28 +0900</pubDate><guid>https://spica.starry.blue/posts/2021/05/tvtest-discord-rich-presence-plugin-fork/</guid><description>Fork した TvTestRPC は こちら です。 TvTestRPC というプラグインが既にもう開発されていたのですが, 番組が切り替わったタイミングで Presence が更新されなくなるバグに気付きまし</description><content type="html"><![CDATA[<p>Fork した TvTestRPC は 
-<a href="https://github.com/SlashNephy/TvTestRPC" target="_blank">こちら</a>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on spica.starry.blue</title><link>https://spica.starry.blue/posts/</link><description>Recent content in Posts on spica.starry.blue</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0&lt;/a></copyright><lastBuildDate>Sun, 30 May 2021 18:34:28 +0900</lastBuildDate><atom:link href="https://spica.starry.blue/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>TVTest の Discord Rich Presence プラグインを fork した</title><link>https://spica.starry.blue/posts/2021/05/tvtest-discord-rich-presence-plugin-fork/</link><pubDate>Sun, 30 May 2021 18:34:28 +0900</pubDate><guid>https://spica.starry.blue/posts/2021/05/tvtest-discord-rich-presence-plugin-fork/</guid><description>Fork した TvTestRPC は こちら です。 TvTestRPC というプラグインが既にもう開発されていたのですが, 番組が切り替わったタイミングで Presence が更新されなくなるバグに気付きまし</description><content type="html"><![CDATA[<p>Fork した TvTestRPC は 
+<a href="https://github.com/SlashNephy/TvTestRPC" target="_blank" rel="noopener">こちら</a>
  です。</p>
 <hr>
 <p>
-<a href="https://github.com/noriokun4649/TvTestRPC" target="_blank">TvTestRPC</a>
+<a href="https://github.com/noriokun4649/TvTestRPC" target="_blank" rel="noopener">TvTestRPC</a>
  というプラグインが既にもう開発されていたのですが, 番組が切り替わったタイミングで Presence が更新されなくなるバグに気付きました。<br>
 原因としては TVTest が番組切り替わりのイベントを提供しておらず, 更新が走らないことが要因でした。タイマー処理を回すことで対処しました。</p>
 <p>それと放送局ロゴを追加したかったので, Fork して独立することにしました。というのも Discord Rich Presence はアプリケーション ID ごとに予め使用するロゴ画像をアップロードする必要があるからです。<br>
 この fork では新しいアプリケーション ID に切り替えています。</p>
 <p><img src="/img/tvtestrpc-assets.png" alt="Discord Developer Portal"></p>
 <p>将来的にはもっといろいろな局に対応したいのですが, 地方局を調べるのは大変なので 
-<a href="https://github.com/SlashNephy/TvTestRPC/issues/new/choose" target="_blank">Issue</a>
+<a href="https://github.com/SlashNephy/TvTestRPC/issues/new/choose" target="_blank" rel="noopener">Issue</a>
  からロゴ追加リクエストを随時受け付けています。お気軽にどうぞ (というか報告おねがいします！)</p>
 <p>全国共通の NHK 総合と教育, BS はすべてロゴを追加済です。関東広域や一部の地方局の地上波も既に対応済です。</p>
 <hr>
@@ -89,7 +89,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
 <p>どうやら、これらのキーは大型 Update で初期化されるようです。May 2020 Update (version 2004) を適用したところ、表示状態に戻ってしまいました。</p>
 ]]></content></item><item><title>MathJax を Hugo で読み込む</title><link>https://spica.starry.blue/posts/2020/04/mathjax-on-hugo/</link><pubDate>Wed, 01 Apr 2020 14:33:19 +0900</pubDate><guid>https://spica.starry.blue/posts/2020/04/mathjax-on-hugo/</guid><description>Hugo on GitHub Pages にお引越ししてみました。 そのついでに MathJax を導入してみました。MathJax 3 になり、導入方法が変わっていたので公式の ドキュメント を参考</description><content type="html"><![CDATA[<p>Hugo on GitHub Pages にお引越ししてみました。<br>
 そのついでに MathJax を導入してみました。MathJax 3 になり、導入方法が変わっていたので公式の 
-<a href="https://www.mathjax.org/#gettingstarted" target="_blank">ドキュメント</a>
+<a href="https://www.mathjax.org/#gettingstarted" target="_blank" rel="noopener">ドキュメント</a>
  を参考にしました。</p>
 <p>このサイトは Hugo で生成されているので <code>layouts/patials/footer.html</code> に</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -121,7 +121,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
 </code></pre></td></tr></table>
 </div>
 </div><p>を追記すれば OK。このままでは全ページで MathJax がロードされてしまうので、
-<a href="https://kenbannikki.com/notes/using-mathjax-with-hugo/" target="_blank">先人の記事</a>
+<a href="https://kenbannikki.com/notes/using-mathjax-with-hugo/" target="_blank" rel="noopener">先人の記事</a>
  にある通り</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -244,7 +244,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
 </div>
 </div><p>以上をまとめて</p>
 <p>
-<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008&amp;lang=jp" target="_blank">http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008&amp;lang=jp</a>
+<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008&amp;lang=jp" target="_blank" rel="noopener">http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008&amp;lang=jp</a>
  の例</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -264,7 +264,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
 <pre tabindex="0"><code>access_log /path/to/access.log if=$loggable;
 </code></pre><p>のように <code>if</code> 引数を付けてあげれば OK。</p>
 <p>ドキュメント: 
-<a href="https://nginx.org/en/docs/http/ngx_http_log_module.html" target="_blank">Module ngx_http_log_module</a>
+<a href="https://nginx.org/en/docs/http/ngx_http_log_module.html" target="_blank" rel="noopener">Module ngx_http_log_module</a>
 </p>
 ]]></content></item><item><title>Windows 10 で Visual Studio インストーラーが「セットアップ中に問題が発生しました」で終了する問題</title><link>https://spica.starry.blue/posts/2016/10/windows10-fix-visual-studio-installer-error/</link><pubDate>Wed, 26 Oct 2016 15:24:09 +0900</pubDate><guid>https://spica.starry.blue/posts/2016/10/windows10-fix-visual-studio-installer-error/</guid><description>イベント ビューアーで詳細なログを参照したところ &amp;lsquo;System.Windows.Media.FontFamily&amp;rsquo; のタイプ初期化子が例外をスローしました とありました。 最近インストールしたフォントに問題がある</description><content type="html"><![CDATA[<p>イベント ビューアーで詳細なログを参照したところ</p>
 <blockquote>
@@ -475,7 +475,7 @@ $ ldconfig
 </div><p>-j8 オプションはコア数に応じて変更するとよいらしいです。</p>
 <h1 id="vtk">VTK</h1>
 <p>
-<a href="http://www.vtk.org/download/" target="_blank">http://www.vtk.org/download/</a>
+<a href="http://www.vtk.org/download/" target="_blank" rel="noopener">http://www.vtk.org/download/</a>
  から <code>Source  VTK-7.0.0.zip</code> を落としてきました。</p>
 <pre tabindex="0"><code class="language-shell=" data-lang="shell=">$ cd /usr/local/src
 $ wget http://www.vtk.org/files/release/7.0/VTK-7.0.0.zip
