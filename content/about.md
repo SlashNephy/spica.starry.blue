@@ -6,15 +6,6 @@ tags:
     - profile
 ---
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-<style>
-i {
-    margin-right: 0.4em;
-}
-</style>
-
-<hr>
-
 <i class="fas fa-code"></i> Development
 -----
 

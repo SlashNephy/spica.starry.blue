@@ -2,19 +2,19 @@ version: '3.8'
 
 services:
   hugo:
-    container_name: Hugo
+    container_name: spica-dev.starry.blue
     image: klakegg/hugo:ext-alpine
     restart: always
-    command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --minify --noHTTPCache --navigateToChanged --templateMetrics --templateMetricsHints
+    command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged
     volumes:
       - .:/src
     labels:
       traefik.enable: 'true'
-      traefik.http.routers.hugo.rule: Host(`spica-dev.starry.blue`)
-      traefik.http.routers.hugo.tls: 'true'
-      traefik.http.services.hugo.loadbalancer.server.port: 1313
+      traefik.http.routers.spica-dev.rule: Host(`spica-dev.starry.blue`)
+      traefik.http.routers.spica-dev.tls: 'true'
+      traefik.http.services.spica-dev.loadbalancer.server.port: 1313
 
 networks:
   default:
-    external:
-      name: traefik
+    name: traefik
+    external: true

@@ -12,4 +12,4 @@ docker-compose up -d
 
 ## License
 
-This repository is provided under the MIT license, with the exception of other people's work under `/static`.
+This repository is provided under CC BY-SA 4.0.

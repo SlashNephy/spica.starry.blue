@@ -1,16 +1,8 @@
-baseURL: https://spica.starry.blue/
-enableEmoji: true
-enableGitInfo: true
-footnoteReturnLinkContents: ↩
-googleAnalytics: UA-169204355-1
-hasCJKLanguage: true
-imaging:
-  exif:
-    disableLatLong: true
-copyright: >-
-  <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>
-defaultContentLanguage: ja
+baseURL: https://spica.starry.blue
+title: spica.starry.blue
 languageCode: ja-jp
+theme: hello-friend-ng
+
 markup:
   goldmark:
     renderer:
@@ -18,6 +10,83 @@ markup:
   highlight:
     lineNos: true
     style: native
+
+paginate: 10
+rssLimit: 10
+copyright: >-
+  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+
+googleAnalytics: UA-169204355-1
+disqusShortname: spica-starry-blue
+
+sitemap:
+  changefreq: weekly
+  priority: 0.8
+
+hasCJKLanguage: true
+imaging:
+  exif:
+    disableLatLong: true
+defaultContentLanguage: ja
+
+related:
+  includeNewer: true
+  toLower: true
+
+enableGitInfo: true
+enableEmoji: true
+
+permalinks:
+  posts: /posts/:year/:month/:filename/
+
+author:
+  name: <a href="/about">Asteria Nocturna</a> a.k.a. Nep @SlashNephy
+
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
+params:
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 2006-01-02
+  dateformNumTime: 2006-01-02 15:04
+
+  description: Portfolio of Nep @SlashNephy a.k.a. Asteria Nocturna
+  homeSubtitle: My Portfolio
+
+  gitUrl: https://github.com/SlashNephy/spica.starry.blue/commit/
+  disableReadOtherPosts: false
+
+    # enableThemeToggle: true
+    # enableSharingButtons: true
+  justifyContent: true
+
+  social:
+    - name: email
+      url: mailto:spica@starry.blue
+    - name: github
+      url: https://github.com/SlashNephy
+    - name: twitter
+      url: https://twitter.com/SlashNephy
+    - name: steam
+      url: https://steamcommunity.com/id/AsteriaNocturna
+    - name: spotify
+      url: https://open.spotify.com/user/v1h824j8sxke430y505vk0wu8
+
+  footer:
+    enable: true
+
+  logo:
+    logoMark: '>'
+    logoText: spica starry blue
+    logoHomeLink: /
+
+  portrait:
+    path: https://github.com/SlashNephy.png
+    alt: '@SlashNephy'
+
 menu:
   main:
     - identifier: about
@@ -31,64 +100,7 @@ menu:
       url: showcase
     - identifier: blog
       name: Blog
-      url: https://blog.starry.blue/
+      url: https://blog.starry.blue
     - identifier: posts
       name: Posts
       url: posts
-minify:
-  minifyOutput: true
-outputs:
-  home:
-    - HTML
-    - RSS
-  page:
-    - HTML
-    - AMP
-permalinks:
-  posts: /posts/:year/:month/:filename/
-related:
-  includeNewer: true
-  toLower: true
-sitemap:
-  changefreq: weekly
-  priority: 0.8
-taxonomies:
-  category: categories
-  tag: tags
-  series: series
-theme: hello-friend-ng
-title: spica.starry.blue
-
-params:
-  dateform: Jan 2, 2006
-  dateformShort: Jan 2
-  dateformNum: 2006-01-02
-  dateformNumTime: 2006-01-02 15:04
-  disableReadOtherPosts: false
-  enableSharingButtons: true
-  homeSubtitle: My Portfolio
-  description: My Portfolio
-  defaultTheme: light
-  logo:
-    logoMark: >
-    logoText: spica starry blue
-    logoHomeLink: /
-  gitUrl: https://github.com/SlashNephy/spica.starry.blue/commit/
-  portrait:
-    path: https://github.com/SlashNephy.png
-    alt: Portrait
-  social:
-    - name: email
-      url: mailto:spica@starry.blue
-    - name: github
-      url: https://github.com/SlashNephy
-    - name: twitter
-      url: https://twitter.com/SlashNephy
-    - name: steam
-      url: https://steamcommunity.com/id/AsteriaNocturna
-    - name: reddit
-      url: https://www.reddit.com/u/SlashNephy
-
-readOtherPosts: Read other posts
-author:
-  name: Nep
