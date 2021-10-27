@@ -282,7 +282,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
 </code></pre></td></tr></table>
 </div>
 </div><p>として、一時ファイルを削除しましょう。</p>
-]]></content></item><item><title>CentOS 7 の Python 3.5.2 に OpenCV を導入する</title><link>https://spica.starry.blue/posts/2016/09/centos7-install-opencv2/</link><pubDate>Sun, 18 Sep 2016 15:38:04 +0900</pubDate><guid>https://spica.starry.blue/posts/2016/09/centos7-install-opencv2/</guid><description>MatLabのインストールは前提。 以下の操作は root ユーザーで実行することにします。 まず始めに依存関係をインストールします。 1 2 3 4 $ yum install -y git gcc</description><content type="html"><![CDATA[<p>MatLabのインストールは前提。
+]]></content></item><item><title>CentOS 7 の Python 3.5.2 に OpenCV を導入する</title><link>https://spica.starry.blue/posts/2016/09/centos7-install-opencv2/</link><pubDate>Sun, 18 Sep 2016 15:38:04 +0900</pubDate><guid>https://spica.starry.blue/posts/2016/09/centos7-install-opencv2/</guid><description>MatLabのインストールは前提。 以下の操作は root ユーザーで実行することにします。 まず始めに依存関係をインストールします。 1 2 3 4 $ yum install -y git gcc</description><content type="html"><![CDATA[<p>MatLabのインストールは前提。<br>
 以下の操作は root ユーザーで実行することにします。</p>
 <p>まず始めに依存関係をインストールします。</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -487,12 +487,12 @@ $ ccmake .
 <p>今回は Python 3 バインディングをインストールするため、Python 2向けのオプションを変更する必要があります。</p>
 <p><code>[t]</code> を押しすべてのオプションを表示します。以下のオプションを<code>[enter]</code>キーで変更します。<code>ON</code> <code>OFF</code> は一度押すとトグルできます。</p>
 <blockquote>
-<p><code>PYTHON_EXECUTABLE</code> → <code>/usr/local/bin/python3.5</code>
-<code>PYTHON_INCLUDE_DIR</code> → <code>/usr/local/include/python3.5m</code>
-<code>PYTHON_LIBRARY</code> → <code>/usr/local/lib/libpython3.5m.so</code>
-<code>VTK_INSTALL_PYTHON_MODULE_DIR</code> → <code>/usr/local/lib/python3.5/site-packages</code>
-<code>VTK_PYTHON_VERSION</code> → <code>3.5</code>
-<code>VTK_WRAP_PYTHON</code> → <code>ON</code>
+<p><code>PYTHON_EXECUTABLE</code> → <code>/usr/local/bin/python3.5</code><br>
+<code>PYTHON_INCLUDE_DIR</code> → <code>/usr/local/include/python3.5m</code><br>
+<code>PYTHON_LIBRARY</code> → <code>/usr/local/lib/libpython3.5m.so</code><br>
+<code>VTK_INSTALL_PYTHON_MODULE_DIR</code> → <code>/usr/local/lib/python3.5/site-packages</code><br>
+<code>VTK_PYTHON_VERSION</code> → <code>3.5</code><br>
+<code>VTK_WRAP_PYTHON</code> → <code>ON</code><br>
 <code>VTK_WRAP_TCL</code> → <code>ON</code></p>
 </blockquote>
 <p>の行まで移動したらEnterキーを押します。</p>
@@ -530,7 +530,7 @@ $ ldconfig
 </code></pre></td></tr></table>
 </div>
 </div><h1 id="cmake">CMake</h1>
-<p>デフォルトで yum で入る CMake は古いため、Python 3.5.2 を認識してくれないので最新版をビルドします。
+<p>デフォルトで yum で入る CMake は古いため、Python 3.5.2 を認識してくれないので最新版をビルドします。<br>
 ここでインストールする CMake は <code>/usr/local/bin/cmake</code> に配置します。</p>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
