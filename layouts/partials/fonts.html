@@ -1,0 +1,79 @@
+<!--Web Font Loader-->
+<script async>
+    WebFontConfig = {
+        google: {
+            families: ['Zen+Maru+Gothic:500', 'Noto+Sans+JP', 'IBM+Plex+Sans', 'IBM+Plex+Mono']
+        },
+        custom: {
+            families: ['PlemolJP35 Console', 'Cascadia Mono'],
+            urls: ['/fonts/plemol-jp35.css', '/fonts/cascadia-mono.css']
+        },
+        active: function() {
+            sessionStorage.fonts = true;
+        },
+        timeout: 2000
+    };
+ 
+    (function(d) {
+        const s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js';
+        d.body.appendChild(s);
+    })(document);
+</script>
+
+<!-- Default Font -->
+<style>
+    body {
+        font-family: 'Zen Maru Gothic', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    }
+
+    .zen-maru {
+        font-family: 'Zen Maru Gothic', sans-serif;
+    }
+    
+    .noto-sans {
+        font-family: 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+    }
+
+    .ibm-plex-sans {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    code {
+        font-family: 'PlemolJP35 Console', 'Cascadia Mono', 'IBM Plex Mono', 'Noto Sans Mono CJK JP', monospace;
+    }
+
+    .plemol {
+        font-family: 'PlemolJP35 Console', monospace;
+    }
+
+    .cascadia-mono {
+        font-family: 'Cascadia Mono', monospace;
+    }
+
+    .ibm-plex-mono {
+        font-family: 'IBM Plex Mono', monospace;
+    }
+</style>
+
+<!-- Icon Font -->
+<script async src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+<style>
+    h1 svg.iconify-inline, h2 svg.iconify-inline, h3 svg.iconify-inline, h4 svg.iconify-inline, h5 svg.iconify-inline {
+        margin-right: 0.4em;
+    }
+</style>
+
+<!-- MathJax -->
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$']],
+            displayMath: [['$$','$$']],
+            processEscapes: true,
+            processEnvironments: true
+        }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.min.js" integrity="sha512-93xLZnNMlYI6xaQPf/cSdXoBZ23DThX7VehiGJJXB76HTTalQKPC5CIHuFX8dlQ5yzt6baBQRJ4sDXhzpojRJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

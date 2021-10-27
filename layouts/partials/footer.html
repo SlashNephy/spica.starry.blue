@@ -1,12 +1,13 @@
-{{if .Site.Params.footer.enable}}
+{{ if .Site.Params.footer.enable }}
 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; {{ .Site.Author.name | safeHTML }} {{ now.Format "2006" }}</span>
+            <span><span class="iconify-inline" data-icon="uil:copyright"></span> {{ now.Format "2006" }}</span>
+            <span>{{ .Site.Author.name | safeHTML }}</span>
             <span>{{ .Site.Copyright | safeHTML }}</span>
             <span>
                 <a href="{{ "posts/index.xml" | absLangURL }}" target="_blank" title="rss">
-                    <span class="iconify" data-icon="fa:feed"></span>
+                    <span class="iconify-inline" data-icon="fa:feed"></span>
                 </a>
             </span>
         </div>
@@ -15,14 +16,18 @@
     <div class="footer__inner">
         <div class="footer__content">
             <span>Powered by <a href="https://gohugo.io">Hugo</a></span>
-            <span>Made with &#10084; by <a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Djordje Atlialp</a></span>
+            <span>Made with <span class="iconify-inline" data-icon="ci:heart-fill"></span> by <a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Djordje Atlialp</a></span>
         </div>
     </div>
+
+    {{ if eq .Site.Title "spica-dev.starry.blue" }}
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span><span class="iconify-inline" data-icon="fe:warning"></span> This is a development version of <a href="https://spica.starry.blue">spica.starry.blue</a>.</span>
+        </div>
+    </div>
+    {{ end }}
 </footer>
 {{ end }}
 
-{{ partial "webfont_support.html" . }}
-
-{{ if .Params.mathjax }}
-    {{ partial "mathjax_support.html" . }}
-{{ end }}
+{{ partial "fonts.html" . }}

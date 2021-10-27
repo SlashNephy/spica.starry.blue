@@ -1,2 +1,10 @@
 enableRobotsTXT: true
 title: spica-dev.starry.blue
+
+params:
+  isDev: true
+
+  logo:
+    logoMark: '>'
+    logoText: spica dev starry blue
+    logoHomeLink: /
