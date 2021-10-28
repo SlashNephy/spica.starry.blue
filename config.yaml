@@ -10,12 +10,33 @@ markup:
       hardWraps: true
   highlight:
     lineNos: true
-    style: native
+    anchorLineNos: true
+    codeFences: false
+    style: monokai
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    css:
+      keepCSS2: true
+    html:
+      keepComments: false
+      keepConditionalComments: false
+      keepDefaultAttrVals: false
+      keepDocumentTags: false
+      keepEndTags: false
+      keepQuotes: false
+      keepWhitespace: false
+    js:
+      keepVarNames: false
+    json:
+      keepNumbers: false
+    xml:
+      keepWhitespace: false
 
 paginate: 10
 rssLimit: 10
-copyright: >-
-  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+copyright: <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external license noopener" target="_blank">CC BY-SA 4.0</a>
 
 # googleAnalytics: UA-169204355-1
 disqusShortname: spica-starry-blue
@@ -60,8 +81,8 @@ params:
   gitUrl: https://github.com/SlashNephy/spica.starry.blue/commit/
   disableReadOtherPosts: false
 
-    # enableThemeToggle: true
-    # enableSharingButtons: true
+  enableThemeToggle: true
+  enableSharingButtons: true
   justifyContent: true
 
   social:
@@ -69,12 +90,24 @@ params:
       url: mailto:spica@starry.blue
     - name: github
       url: https://github.com/SlashNephy
+    - name: docker
+      url: https://hub.docker.com/u/slashnephy
     - name: twitter
       url: https://twitter.com/SlashNephy
-    - name: steam
-      url: https://steamcommunity.com/id/AsteriaNocturna
+    - name: discord
+      url: https://discordapp.com/users/187577389419724800
+    - name: reddit
+      url: https://www.reddit.com/user/SlashNephy
+    - name: keybase
+      url: https://keybase.io/slashnephy
     - name: spotify
       url: https://open.spotify.com/user/v1h824j8sxke430y505vk0wu8
+    - name: lastfm
+      url: https://www.last.fm/ja/user/AsteriaNocturna
+    - name: steam
+      url: https://steamcommunity.com/id/AsteriaNocturna
+    - name: twitch
+      url: https://www.twitch.tv/asterianocturna
     - name: amazon
       url: https://www.amazon.co.jp/registry/wishlist/3SHZC6ICOXGPT
 

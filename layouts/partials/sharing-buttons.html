@@ -1,0 +1,28 @@
+{{ $page_title := printf "%s :: %s" .Title .Site.Title}}
+
+<!-- Twitter -->
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url={{ .Permalink }}&text={{ $page_title | safeURL }}%0A&related=SlashNephy" target="_blank" rel="noopener" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <span class="iconify" data-icon="lucide:twitter"></span>
+    </div>
+  </div>
+</a>
+
+<!-- Facebook -->
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <span class="iconify" data-icon="simple-line-icons:social-facebook"></span>
+    </div>
+  </div>
+</a>
+
+<!-- Hatena Bookmark -->
+<a class="resp-sharing-button__link" href="https://b.hatena.ne.jp/entry/panel/?url={{ .Permalink }}&btitle={{ $page_title | safeURL }}" target="_blank" rel="noopener" title="Share on Hatena Bookmark">
+  <div class="resp-sharing-button resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <span class="iconify" data-icon="cib:hatena-bookmark"></span>
+    </div>
+  </div>
+</a>

@@ -3,7 +3,7 @@ version: '3.8'
 services:
   hugo:
     container_name: spica-dev.starry.blue
-    image: klakegg/hugo:ext-alpine
+    image: klakegg/hugo:ext
     restart: always
     command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged
     volumes:
