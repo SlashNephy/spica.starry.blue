@@ -120,8 +120,10 @@ params:
     logoHomeLink: /
 
   portrait:
-    path: https://github.com/SlashNephy.png
+    path: https://avatars.githubusercontent.com/u/7302150?v=4&s=100
     alt: '@SlashNephy'
+    width: 100px
+    height: 100px
 
 menu:
   main:

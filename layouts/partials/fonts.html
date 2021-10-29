@@ -2,7 +2,7 @@
 <script async>
     WebFontConfig = {
         google: {
-            families: ['Zen+Maru+Gothic:500', 'Noto+Sans+JP', 'IBM+Plex+Sans', 'IBM+Plex+Mono']
+            families: ['Zen+Maru+Gothic:500&display=swap', 'Noto+Sans+JP&display=swap']
         },
         custom: {
             families: ['PlemolJP35 Console', 'Cascadia Mono'],
@@ -14,6 +14,10 @@
         timeout: 2000
     };
  
+    if (sessionStorage.fonts) {
+        document.documentElement.classList.add("wf-active");
+    }
+
     (function(d) {
         const s = d.createElement('script');
         s.async = true;
@@ -36,12 +40,8 @@
         font-family: 'Noto Sans CJK JP', 'Noto Sans JP';
     }
 
-    .ibm-plex-sans {
-        font-family: 'IBM Plex Sans';
-    }
-
     code, code[class*="language-"], pre[class*="language-"] {
-        font-family: 'PlemolJP35 Console', 'Cascadia Mono', 'IBM Plex Mono', 'Noto Sans Mono CJK JP', monospace;
+        font-family: 'PlemolJP35 Console', 'Cascadia Mono', 'Source Han Code JP', 'Ricty', 'Ricty Diminished', 'Ricty Diminished Discord', 'Noto Sans Mono CJK JP', 'Inconsolata', 'IBM Plex Mono', 'Consolas', 'Sugoe UI', monospace;
     }
 
     .plemol-jp35 {
@@ -50,10 +50,6 @@
 
     .cascadia-mono {
         font-family: 'Cascadia Mono';
-    }
-
-    .ibm-plex-mono {
-        font-family: 'IBM Plex Mono';
     }
 </style>
 
@@ -67,14 +63,16 @@
 </style>
 
 <!-- MathJax -->
-<script>
-    MathJax = {
-        tex: {
-            inlineMath: [['$', '$']],
-            displayMath: [['$$','$$']],
-            processEscapes: true,
-            processEnvironments: true
-        }
-    };
-</script>
-<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.min.js" integrity="sha512-93xLZnNMlYI6xaQPf/cSdXoBZ23DThX7VehiGJJXB76HTTalQKPC5CIHuFX8dlQ5yzt6baBQRJ4sDXhzpojRJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{{ if .Params.mathjax }}
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$','$$']],
+                processEscapes: true,
+                processEnvironments: true
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.min.js" integrity="sha512-93xLZnNMlYI6xaQPf/cSdXoBZ23DThX7VehiGJJXB76HTTalQKPC5CIHuFX8dlQ5yzt6baBQRJ4sDXhzpojRJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{{ end }}
