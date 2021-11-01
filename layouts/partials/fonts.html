@@ -2,7 +2,7 @@
 <script async>
     WebFontConfig = {
         google: {
-            families: ['Zen+Maru+Gothic:500&display=swap', 'Noto+Sans+JP&display=swap']
+            families: ['Zen+Maru+Gothic:500', 'Noto+Sans+JP&display=swap']
         },
         custom: {
             families: ['PlemolJP35 Console', 'Cascadia Mono'],
@@ -11,7 +11,7 @@
         active: function() {
             sessionStorage.fonts = true;
         },
-        timeout: 2000
+        timeout: 3000
     };
  
     if (sessionStorage.fonts) {
@@ -40,7 +40,7 @@
         font-family: 'Noto Sans CJK JP', 'Noto Sans JP';
     }
 
-    code, code[class*="language-"], pre[class*="language-"] {
+    code, code[class*="language-"], pre[class*="language-"], .logo {
         font-family: 'PlemolJP35 Console', 'Cascadia Mono', 'Source Han Code JP', 'Ricty', 'Ricty Diminished', 'Ricty Diminished Discord', 'Noto Sans Mono CJK JP', 'Inconsolata', 'IBM Plex Mono', 'Consolas', 'Sugoe UI', monospace;
     }
 

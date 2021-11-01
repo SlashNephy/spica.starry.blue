@@ -69,8 +69,6 @@ tags:
   <pre class="zen-maru bigger">人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは</pre>
 - [Noto Sans JP](https://fonts.google.com/specimen/Noto+Sans+JP)
   <pre class="noto-sans bigger">人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは</pre>
-- [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)
-  <pre class="ibm-plex-sans bigger">人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは</pre>
 - [PlemolJP35 Console](https://github.com/yuru7/PlemolJP)
   <pre class="plemol-jp35 bigger">const getter = (id) => document.getElementById(id);</pre>
 - [Cascadia Mono](https://docs.microsoft.com/ja-jp/windows/terminal/cascadia-code)
