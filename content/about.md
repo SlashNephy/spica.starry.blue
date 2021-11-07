@@ -21,15 +21,29 @@ tags:
 ### <span class="iconify-inline" data-icon="fa-solid:file-code"></span> Favorite Languages
 
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-kotlin"></span> [Kotlin](https://kotlinlang.org)
-  2017年の秋ぐらいから触り始めました。ことりんことりん。
+  <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> [Penicillin](https://github.com/StarryBlueSky/Penicillin) とか [Json.kt](https://github.com/StarryBlueSky/Json.kt) とか
 
+  2017年の秋ぐらいから触り始めました。ことりんことりん。
   Kotlin/Multiplatform に興味があって、自作ライブラリの脱 <span class="iconify-inline" data-icon="logos:java"></span> JVM を達成しました。
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-csharp"></span> [C# (.NET)](https://docs.microsoft.com/ja-jp/dotnet/core/introduction)
+  <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> Dalamud [プラグイン](https://github.com/horoscope-dev/Dalamud.DivinationPluginRepo) とか [SimpleVoiceroid2Proxy](https://github.com/SlashNephy/SimpleVoiceroid2Proxy) とか [TVTComment (fork)](https://github.com/SlashNephy/TVTComment) とか
+
+  Win32 API を呼び出せて楽しいですよね！
+  Kotlin 同様にモダンにクロスプラットフォーム開発できる .NET 5 最高です！！！
+- <span class="iconify-inline" data-icon="vscode-icons:file-type-cpp"></span> [C++](https://isocpp.org)
+  <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> [TVTestAnnictRecorder](https://github.com/SlashNephy/TVTestAnnictRecorder) とか [TvTestRPC (fork)](https://github.com/SlashNephy/TvTestRPC)
+
+  あまり自信はないですが、最低限…。
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-python"></span> [Python](https://www.python.org)
-  プログラミングを始めたきっかけです。
+  プログラミングを始めたきっかけです。 <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> [PyChroner](https://github.com/StarryBlueSky/PyChroner)
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-rust"></span> [Rust](https://www.rust-lang.org)
+  最近ちょっとだけいじってます。 <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> [annict-profile-card](https://github.com/SlashNephy/annict-profile-card)
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-typescript-official"></span> [TypeScript](https://www.typescriptlang.org)
-  あとでやりたいです。
+  <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> [EPGStation](https://github.com/l3tnun/EPGStation) の自家ビルドに使用しています。
+- <span class="iconify-inline" data-icon="logos:go"></span> [Go](https://golang.org)
+  あとでやりたいです。まだきっかけがないです。
+- <span class="iconify-inline" data-icon="logos:php"></span> [PHP](https://www.php.net)
+  かつてポートフォリオページを PHP で書いていました。
 
 ### <span class="iconify-inline" data-icon="fluent:window-dev-edit-20-filled"></span> Favorite Editor
 

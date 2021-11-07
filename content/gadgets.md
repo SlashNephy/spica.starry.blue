@@ -48,13 +48,16 @@ tags:
 | <span class="iconify" data-icon="clarity:server-line"></span> Casing | **Thermaltake** Versa H23 <a href="http://www.thermaltake.com/products-model.aspx?id=C_00002304" target="_blank"><span class="iconify-inline" data-icon="fa-solid:external-link-alt"></span></a>|
 
 ### <span class="iconify-inline" data-icon="ic:outline-laptop-mac"></span> Macbook Pro 13inch (Early 2015)  
-    macOS Catalina。Core i7 3.4GHz, RAM 16GB, SSD 256GB のカスタマイズをしました。
+    macOS Catalina。Core i7 3.4GHz、RAM 16GB、SSD 256GB のカスタマイズをしました。
+
+### <span class="iconify-inline" data-icon="bi:phone"></span> Google Pixel 6 Pro
+    色は Sorta Sunny、容量は 128 GB、SIM フリーです。
 
 ### <span class="iconify-inline" data-icon="raphael:iphone"></span> iPhone 8
-    iOS 15.0。色は Space Gray, 容量は 256 GB です。
+    iOS 15.0。色は Space Gray、容量は 256 GB です。
 
 ### <span class="iconify-inline" data-icon="gg:apple-watch"></span> Apple Watch SE
-    watchOS 8.0。色は Space Gray, 容量は 32 GB です。
+    watchOS 8.0。色は Space Gray、容量は 32 GB です。
 
 ### <span class="iconify-inline" data-icon="raphael:ipad"></span> iPad Pro
-    iOS 13.3 Jailbroken。色は Gold, 容量は 256 GB です。
+    iOS 13.3 Jailbroken。色は Gold、容量は 256 GB です。
