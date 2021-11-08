@@ -4,7 +4,7 @@
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >こちら</a>
  です。</p>
@@ -15,21 +15,30 @@
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >TvTestRPC</a>
  というプラグインが既にもう開発されていたのですが, 番組が切り替わったタイミングで Presence が更新されなくなるバグに気付きました。<br>
 原因としては TVTest が番組切り替わりのイベントを提供しておらず, 更新が走らないことが要因でした。タイマー処理を回すことで対処しました。</p>
 <p>それと放送局ロゴを追加したかったので, Fork して独立することにしました。というのも Discord Rich Presence はアプリケーション ID ごとに予め使用するロゴ画像をアップロードする必要があるからです。<br>
 この fork では新しいアプリケーション ID に切り替えています。</p>
-<p><img src="/img/tvtestrpc-assets.png" alt="Discord Developer Portal"></p>
+<p>
+<div align="center">
+    <img
+        src="/img/tvtestrpc-assets.png"
+        alt="Discord Developer Portal"
+        
+        decoding="async"
+    >
+</div>
+</p>
 <p>将来的にはもっといろいろな局に対応したいのですが, 地方局を調べるのは大変なので 
 <a
     href="https://github.com/SlashNephy/TvTestRPC/issues/new/choose"
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >Issue</a>
  からロゴ追加リクエストを随時受け付けています。お気軽にどうぞ (というか報告おねがいします！)</p>
@@ -47,11 +56,26 @@
 <li>全角文字を半角に変換するオプションを追加しています。</li>
 <li>サブチャンネル (TOKYO MX2 等) でも Presence を表示できます。</li>
 </ul>
+<p>
 <div align="center">
-  <img src="/img/tvtestrpc-large-image.png" title="Large image text">
-  <br>
-  <img src="/img/tvtestrpc-small-image.png" title="Small image text">
+    <img
+        src="/img/tvtestrpc-large-image.png"
+        alt="Large image text"
+        
+        decoding="async"
+    >
 </div>
+</p>
+<p>
+<div align="center">
+    <img
+        src="/img/tvtestrpc-small-image.png"
+        alt="Small image text"
+        
+        decoding="async"
+    >
+</div>
+</p>
 <p>Details = <code>サービス名</code><br>
 State = <code>番組名</code><br>
 Large Image Text = <code>番組説明</code> (空欄のときは表示されません)<br>
@@ -60,7 +84,16 @@ Small Image Text = <code>TVTest と TvTestRPC プラグインのバージョン<
 <p>ところで C++ は普段あまり書かないので, 文字列操作にかなり詰まりました。<br>
 TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Discord RPC が受け付ける文字列は <code>const char*</code> なので相互変換とかフォーマットがしんどかったです。ワイド文字列, なにそれおいしいの？</p>
 ]]></content></item><item><title>Windows 10 の "PC" のライブラリを隠す</title><link>https://spica.starry.blue/posts/2020/06/windows10-remove-special-folders-from-pc/</link><pubDate>Fri, 12 Jun 2020 20:46:33 +0900</pubDate><guid>https://spica.starry.blue/posts/2020/06/windows10-remove-special-folders-from-pc/</guid><description>Windows 10 から &amp;ldquo;PC&amp;rdquo; にライブラリが表示されるようになりました。 ここで表示されるライブラリが邪魔だという方も少なくないと思います。 これらのフォルダはレジ</description><content type="html"><![CDATA[<p>Windows 10 から &ldquo;PC&rdquo; にライブラリが表示されるようになりました。</p>
-<p><img src="/img/windows10-pc.png" alt="Windows 10 の PC"></p>
+<p>
+<div align="center">
+    <img
+        src="/img/windows10-pc.png"
+        alt="Windows 10 の PC"
+        
+        decoding="async"
+    >
+</div>
+</p>
 <p>ここで表示されるライブラリが邪魔だという方も少なくないと思います。</p>
 <p>これらのフォルダはレジストリを編集することで隠すことが可能です。以下、レジストリを操作するため自己責任でおねがいします。</p>
 <p><code>Win + R</code> で <code>regedit</code> を起動し、次のキーに移動します。</p>
@@ -106,7 +139,16 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
 </tr>
 </tbody>
 </table>
-<p><img src="/img/windows10-pc-clean.png" alt="Windows 10 の PC"></p>
+<p>
+<div align="center">
+    <img
+        src="/img/windows10-pc-clean.png"
+        alt="Windows 10 の PC"
+        
+        decoding="async"
+    >
+</div>
+</p>
 <p>すっきりしました。(それにしてもドライブが多すぎる&hellip;)</p>
 <p>どうやら、これらのキーは大型 Update で初期化されるようです。May 2020 Update (version 2004) を適用したところ、表示状態に戻ってしまいました。</p>
 ]]></content></item><item><title>MathJax を Hugo で読み込む</title><link>https://spica.starry.blue/posts/2020/04/mathjax-on-hugo/</link><pubDate>Wed, 01 Apr 2020 14:33:19 +0900</pubDate><guid>https://spica.starry.blue/posts/2020/04/mathjax-on-hugo/</guid><description>Hugo on GitHub Pages にお引越ししてみました。 そのついでに MathJax を導入してみました。MathJax 3 になり、導入方法が変わっていたので公式の ドキュメント を参考</description><content type="html"><![CDATA[<p>Hugo on GitHub Pages にお引越ししてみました。<br>
@@ -116,7 +158,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >ドキュメント</a>
  を参考にしました。</p>
@@ -139,7 +181,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >先人の記事</a>
  にある通り</p>
@@ -202,9 +244,9 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
->http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008&amp;lang=jp</a>
+>http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0008&lang=jp</a>
  の例</p>
 <pre><code class="language-python">[print(sum([int(a + b + c + d == int(x)) for a in range(10) for b in range(10) for c in range(10) for d in range(10)])) for sys in [__import__(&quot;sys&quot;)] for x in sys.stdin]
 </code></pre>
@@ -225,7 +267,7 @@ TVTest の API が提供する文字列は <code>wchar_t*</code> ですが, Disc
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >Module ngx_http_log_module</a>
 </p>
@@ -330,7 +372,7 @@ $ ldconfig
     
     
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     
 >http://www.vtk.org/download/</a>
  から <code>Source  VTK-7.0.0.zip</code> を落としてきました。</p>
