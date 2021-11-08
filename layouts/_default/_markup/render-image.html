@@ -1,0 +1,11 @@
+<!-- Append some attribute to <img> tags -->
+<div align="center">
+    <img
+        src="{{ .Destination | safeURL }}"
+        alt="{{ .Text }}"
+        {{ with .Title }}
+        title="{{ . }}"
+        {{ end }}
+        decoding="async"
+    >
+</div>

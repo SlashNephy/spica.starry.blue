@@ -1,11 +1,11 @@
 <!-- Append some attributes to <a> tags -->
 <a
     href="{{ .Destination | safeURL }}"
-    {{ with .Title}}
+    {{ with .Title }}
     title="{{ . }}"
     {{ end }}
     {{ if strings.HasPrefix .Destination "http" }}
     target="_blank"
-    rel="external noopener"
+    rel="external noreferrer noopener"
     {{ end }}
->{{ .Text }}</a>
+>{{ .Text | safeHTML }}</a>

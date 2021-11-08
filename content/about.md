@@ -108,9 +108,7 @@ tags:
 
 [annict-profile-card](https://github.com/SlashNephy/annict-profile-card) という、Annict で「見てる」アニメを SVG 画像として表示するウィジェットを作りました。
 
-<a href="https://annict.jp/@SlashNephy" target="_blank" rel="noopener">
-  <img src="https://annict-card.starry.blue/watching/SlashNephy" title="annict-profile-card">
-</a>
+[![annict-profile-card](https://annict-card.starry.blue/watching/SlashNephy)](https://annict.jp/@SlashNephy)
 
 <!-- your comment text
   モブハンとか地図とか零式とかヌシ釣りとかギャザクラとか、いろいろやります。

@@ -37,11 +37,9 @@ Fork した TvTestRPC は [こちら](https://github.com/SlashNephy/TvTestRPC) �
 - 全角文字を半角に変換するオプションを追加しています。
 - サブチャンネル (TOKYO MX2 等) でも Presence を表示できます。
 
-<div align="center">
-  <img src="/img/tvtestrpc-large-image.png" title="Large image text">
-  <br>
-  <img src="/img/tvtestrpc-small-image.png" title="Small image text">
-</div>
+![Large image text](/img/tvtestrpc-large-image.png)
+
+![Small image text](/img/tvtestrpc-small-image.png)
 
 Details = `サービス名`  
 State = `番組名`  
