@@ -17,6 +17,10 @@ tags:
 - <span class="iconify-inline" data-icon="logos:docker-icon"></span> Docker
 - <span class="iconify-inline" data-icon="feather:tv"></span> DTV (Degital Television)
 - Cross-Platform Development
+  - Jetpack Compose Multiplatform
+  - .NET Multi-platform App UI (MAUI)
+- Cryptocurrency / Blockchain
+  - <span class="iconify-inline" data-icon="logos:ethereum"></span> ETH
 
 ### <span class="iconify-inline" data-icon="fa-solid:file-code"></span> Favorite Languages
 
@@ -25,11 +29,12 @@ tags:
 
   2017年の秋ぐらいから触り始めました。ことりんことりん。
   Kotlin/Multiplatform に興味があって、自作ライブラリの脱 <span class="iconify-inline" data-icon="logos:java"></span> JVM を達成しました。
+  Jetpack Compose を活用してみたいです。
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-csharp"></span> [C# (.NET)](https://docs.microsoft.com/ja-jp/dotnet/core/introduction)
   <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> Dalamud [プラグイン](https://github.com/horoscope-dev/Dalamud.DivinationPluginRepo) とか [SimpleVoiceroid2Proxy](https://github.com/SlashNephy/SimpleVoiceroid2Proxy) とか [TVTComment (fork)](https://github.com/SlashNephy/TVTComment) とか
 
   Win32 API を呼び出せて楽しいですよね！
-  Kotlin 同様にモダンにクロスプラットフォーム開発できる .NET 5 最高です！！！
+  Jetpack Compose 同様にモダンにクロスプラットフォーム開発できる .NET MAUI 期待してます。
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-cpp"></span> [C++](https://isocpp.org)
   <span class="iconify-inline" data-icon="akar-icons:arrow-right"></span> [TVTestAnnictRecorder](https://github.com/SlashNephy/TVTestAnnictRecorder) とか [TvTestRPC (fork)](https://github.com/SlashNephy/TvTestRPC)
 
@@ -70,6 +75,8 @@ tags:
 - <span class="iconify-inline" data-icon="logos:docker-icon"></span> [Docker](https://www.docker.com)
 - <span class="iconify-inline" data-icon="vscode-icons:file-type-go-gopher"></span> [Traefik](https://traefik.io/traefik)
 - <span class="iconify-inline" data-icon="logos:jupyter"></span> [Jupyter](https://jupyter.org)
+- <span class="iconify-inline" data-icon="logos:cloudflare"></span> [Cloudflare](https://www.cloudflare.com)
+- <span class="iconify-inline" data-icon="logos:letsencrypt"></span> [Let's Encrypt](https://letsencrypt.org)
 
 ### <span class="iconify-inline" data-icon="vscode-icons:file-type-font"></span> Favorite Font
 
