@@ -43,7 +43,7 @@ tags:
 | <span class="iconify-inline" data-icon="clarity:memory-line"></span> RAM | **crucial** <a href="http://www.crucial.jp/jpn/ja/memory-desktop" target="_blank"><span class="iconify-inline" data-icon="fa-solid:external-link-alt"></span></a> | DDR4 2133 MHz, 32 GB (8GBx4) |
 | <span class="iconify-inline" data-icon="feather:hard-drive"></span> SSD | **crucial** BX200 CT240BX200SSD1 | 240GB |
 | <span class="iconify-inline" data-icon="mdi:harddisk"></span> HDD | **WESTERN DIGITAL** WD30EFRX <br> **WESTERN DIGITAL** WD30EZRZ-RT × 2 <br> **東芝** DT01ACA300 | SATA 3TB <br> SATA 3TB, 5400 rpm <br> SATA 3TB, 7200 rpm |
-| <span class="iconify-inline" data-icon="whh:graphicscard"></span> PCIe | **Plex** PX-W3PE4 <a href="http://www.plex-net.co.jp/product/px-w3pe4/" target="_blank"><span class="iconify-inline" data-icon="fa-solid:external-link-alt"></span></a> <br> SATA 増設ボード | 8 チューナー |
+| <span class="iconify-inline" data-icon="whh:graphicscard"></span> PCIe | **Plex** PX-Q3PE4 <a href="http://www.plex-net.co.jp/product/px-q3pe4/" target="_blank"><span class="iconify-inline" data-icon="fa-solid:external-link-alt"></span></a> <br> SATA 増設ボード | 8 チューナー |
 | <span class="iconify-inline" data-icon="ic:sharp-power"></span> Power Unit | **Corsair** CX450M CP-9020101-JP <a href="http://www.links.co.jp/item/cx450m/" target="_blank"><span class="iconify-inline" data-icon="fa-solid:external-link-alt"></span></a> | 450W |
 | <span class="iconify" data-icon="clarity:server-line"></span> Casing | **Thermaltake** Versa H23 <a href="http://www.thermaltake.com/products-model.aspx?id=C_00002304" target="_blank"><span class="iconify-inline" data-icon="fa-solid:external-link-alt"></span></a>|
 
