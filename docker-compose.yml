@@ -5,6 +5,7 @@ services:
     container_name: spica-dev.starry.blue
     image: klakegg/hugo:ext
     restart: always
+    user: 1000:1000
     command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged
     volumes:
       - .:/src
