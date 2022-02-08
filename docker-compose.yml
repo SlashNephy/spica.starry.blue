@@ -6,12 +6,12 @@ services:
     image: klakegg/hugo:ext
     restart: always
     user: 1000:1000
-    command: server --config config.yaml,dev.yaml --baseURL https://spica-dev.starry.blue --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged
+    command: server --config config.yaml,dev.yaml --baseURL https://apps.starry.blue/spica-dev --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged
     volumes:
       - .:/src
     labels:
       traefik.enable: 'true'
-      traefik.http.routers.spica-dev.rule: Host(`spica-dev.starry.blue`)
+      traefik.http.routers.spica-dev.rule: Host(`apps.starry.blue`) && PathPrefix(`/spica-dev`)
       traefik.http.routers.spica-dev.tls: 'true'
       traefik.http.services.spica-dev.loadbalancer.server.port: 1313
 
