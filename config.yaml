@@ -115,13 +115,13 @@ params:
     enable: true
 
   logo:
-    logoMark: '>'
+    logoMark: ">"
     logoText: spica starry blue
     logoHomeLink: /
 
   portrait:
     path: https://avatars.githubusercontent.com/u/7302150?v=4&s=100
-    alt: '@SlashNephy'
+    alt: "@SlashNephy"
     width: 100px
     height: 100px
 
@@ -136,9 +136,6 @@ menu:
     - identifier: showcase
       name: Showcase
       url: showcase
-    - identifier: blog
-      name: Blog
-      url: https://blog.starry.blue
-    - identifier: posts
-      name: Posts
-      url: posts
+    - identifier: scrapbox
+      name: Scrapbox
+      url: https://scrapbox.io/slashnephy
