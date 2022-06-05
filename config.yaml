@@ -62,7 +62,7 @@ permalinks:
   posts: /posts/:year/:month/:filename/
 
 author:
-  name: <a href="/about">Asteria Nocturna</a> a.k.a. Nep @SlashNephy
+  name: Asteria Nocturna a.k.a. @SlashNephy
 
 taxonomies:
   tag: tags
@@ -75,7 +75,7 @@ params:
   dateformNum: 2006-01-02
   dateformNumTime: 2006-01-02 15:04
 
-  description: Portfolio of Nep @SlashNephy a.k.a. Asteria Nocturna
+  description: Portfolio of Asteria Nocturna a.k.a. @SlashNephy
   homeSubtitle: My Portfolio
 
   gitUrl: https://github.com/SlashNephy/spica.starry.blue/commit/
@@ -120,7 +120,7 @@ params:
     logoHomeLink: /
 
   portrait:
-    path: https://avatars.githubusercontent.com/u/7302150?v=4&s=100
+    path: https://github.com/SlashNephy.png
     alt: "@SlashNephy"
     width: 100px
     height: 100px
@@ -129,13 +129,13 @@ menu:
   main:
     - identifier: about
       name: About
-      url: about
-    - identifier: Gadgets
-      name: Gadgets
-      url: gadgets
-    - identifier: showcase
-      name: Showcase
-      url: showcase
+      url: https://scrapbox.io/slashnephy/About
     - identifier: scrapbox
       name: Scrapbox
       url: https://scrapbox.io/slashnephy/
+    - identifier: Gadgets
+      name: Gadgets
+      url: https://scrapbox.io/slashnephy/Gadgets
+    - identifier: showcase
+      name: Showcase
+      url: https://scrapbox.io/slashnephy/Showcase
