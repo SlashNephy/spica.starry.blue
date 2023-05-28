@@ -3,7 +3,7 @@ version: '3.8'
 services:
   hugo:
     container_name: spica-dev.starry.blue
-    image: klakegg/hugo:ext
+    image: klakegg/hugo:ext@sha256:a82da170159c84e5a59a9fd237da8c063bc062c72d6023afd1a4e3a0c40a9b4e
     restart: always
     user: 1000:1000
     command: server --config config.yaml,dev.yaml --baseURL https://apps.starry.blue/spica-dev --liveReloadPort 443 --appendPort=false --noHTTPCache --navigateToChanged
